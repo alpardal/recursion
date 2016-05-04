@@ -19,5 +19,7 @@ nmap r <leader>r
 
 nnoremap <silent> <right> :call NextFile()<cr>
 nnoremap <silent> <left> :call PrevFile()<cr>
+nnoremap <silent> <down> <c-e>
+nnoremap <silent> <up> <c-y>
 nnoremap c :TComment<cr>
 vnoremap c :'<,'>TComment<cr>
