@@ -31,7 +31,7 @@ function taking(n, reducer) {
 function dropping(n, reducer) {
   var count = 0;
   return function(accu, e) {
-    if (count == n) {
+    if (count === n) {
       return reducer(accu, e);
     }
     count++;
